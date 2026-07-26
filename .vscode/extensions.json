@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates",
+        "fill-labs.dependi",
+        "usernamehw.errorlens",
+        "yzhang.markdown-all-in-one",
+        "gruntfuggly.todo-tree",
+        "mhutchie.git-graph"
+    ]
+}
