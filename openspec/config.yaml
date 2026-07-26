@@ -1,0 +1,16 @@
+schema: spec-driven
+
+context: |
+  Polaris — Cold War grand strategy game inspired by Hearts of Iron 4.
+  Setting: 1945–1991. Province-based world map, real-time with pause.
+  
+  Tech stack: Rust, macroquad (rendering), hecs (ECS), mlua/LuaJIT (scripting/modding),
+  egui (UI), serde/rkyv (serialization), glam (math), laminar (networking).
+  
+  Architecture: Code-first, no visual editor. Simulation layer is pure Rust
+  with no rendering dependencies. ECS-driven with province graph (~15K nodes).
+  
+  Key systems: nuclear deterrence, proxy wars, espionage, space race,
+  economic warfare, diplomacy, technology race.
+  
+  Target: Windows/Mac/Linux, modding via Lua + JSON data files.
